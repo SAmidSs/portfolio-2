@@ -76,6 +76,12 @@ body{
   margin: 0 auto;
 }
 
+.container-furniture{
+  max-width: 1080px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 .main{
   flex-grow: 1;
 }
@@ -109,4 +115,12 @@ body{
       color: #DAA520;
     }
   }
+}
+
+
+.span-accent{
+  font-size: 36px;
+  line-height: 49px;
+  color: #3E3F43;
+  @extend %nunito-700;
 }
