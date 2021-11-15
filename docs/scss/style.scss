@@ -110,13 +110,11 @@
         right: 0;
         background-image: url(../images/about/img_2.png);
     }
+    &__title{
+        width: 660px;
+    }
     &__top{
         margin-bottom: 150px;
-        display: flex;
-        align-items: center;
-    }
-    &__title{
-        max-width: 270px;
     }
     &__inner{
         display: flex;
@@ -179,17 +177,118 @@
 
 
 
+.order{
+    padding-bottom: 120px;
+    &__top{
+        margin-bottom: 65px;
+    }
+    &__title{
+        width: 900px;
+    }
+    &__items{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 65px;
+    }
+    &__item-box{
+        display: flex;
+        align-items: flex-end;
+        position: relative;
+    }
+    &__num{
+        font-size: 96px;
+        line-height: 131px;
+        color: rgba(249, 189, 189, 0.25);
+        @extend %nunito-600;
+    }
+    &__img{
+        position: absolute;
+        top: -15px;
+        left: 38px;
+    }
+    &__item-subtitle{
+        color: #000;
+        @extend %nunito-700;
+    }
+    &__btn{
+        text-align: center;
+    }
+    &__btn-link{
+        font-size: 16px;
+        line-height: 22px;
+        padding: 14px 23px;
+        color: #fff;;
+        background: #DAA520;
+        border-radius: 4px;
+        text-align: center;
+    }
+}
+
+
+.categories{
+    padding-bottom: 120px;
+    &__top{
+        margin-bottom: 40px;
+    }
+    
+    &__title{
+        width: 700px;
+    }
+    &__span{
+        width: 40%;
+    }
+    &__items{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 40px 30px;
+    }
+    &__item{
+        width: 280px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 0 120px 0 120px;
+    }
+    &__item-title{
+        font-size: 24px;
+        line-height: 33px;
+        margin: 24px 16px;
+        color: #3E3F43;
+        @extend %nunito-800;
+    }
+    &__item-img{
+        margin: 0 auto;
+    }
+    &__item-btn{
+        text-align: right;
+        margin: 0 16px 24px 0;
+    }
+    &__btn{
+        font-size: 18px;
+        line-height: 25px;
+        color: #3E3F43;
+        @extend %nunito-600;
+        @extend %btn;
+        padding: 8px 19px;
+    }
+}
 
 
 
 
 
+.categories__item--purple{
+    background-color: #F9BDBD;
+}
 
+.categories__item--yellow{
+    background-color: #F7DEA6;
+}
 
-
-
-
-
+.categories__item--blue{
+    background-color: #A8DCEC;
+}
 
 
 
