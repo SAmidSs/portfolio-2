@@ -292,20 +292,115 @@
 
 
 
+.comments{
+    padding-bottom: 120px;
+    &__top{
+        margin-bottom: 40px;
+    }
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+    &__images{
+        width: 520px;
+    }
+    &__box{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__img{
+        img{
+            border-radius: 80px 0 80px 0;
+        }
+    }
+    &__info{
+        padding: 54px 16px;
+        height: 280px;
+        border: 1px solid #A8DCEC;
+        border-radius: 0 80px 0 80px;
+    }
+}
 
 
 
 
+.slider{
+    width: 384px;
+    &__text{
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 16px;
+        @extend %nunito-600;
+    }
+    &__user{
+        display: flex;
+
+    }
+    &__user-img{
+        img{
+            border-radius: 50%;
+        }
+    }
+    &__user-name{
+        padding-left: 8px;
+        font-size: 12px;
+        line-height: 16px;
+        color: #AFAFAF;
+        max-width: 140px;
+        @extend %nunito-600;
+    }
+}
+
+.slick-arrow{
+    position: absolute;
+    bottom: -110px;
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+    line-height: 19px;
+    color: #3E3F43;
+    @extend %nunito-600;
+}
+
+.slick-next,
+.slick-prev{
+    cursor: pointer;
+}
+
+.slick-next{
+    right: -15px;
+    padding-right: 40px;
+    svg{
+        position: absolute;
+        right: 0;
+        top: 6px;
+    }
+}
+
+.slick-prev{
+    left: 0;
+    padding-left: 40px;
+    svg{
+        position: absolute;
+        left: 0;
+        top: 6px;
+    }
+}
 
 
+.slick-disabled{
+    color: #C4C4C4;
+    path{
+        fill: #C4C4C4;
+    }
+}
 
 
-
-
-
-
-
-
+.jq-ry-container{
+    padding: 0px;
+    margin-bottom: 16px;
+}
 
 
 
