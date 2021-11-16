@@ -335,7 +335,7 @@
     }
     &__user{
         display: flex;
-
+        align-items: center;
     }
     &__user-img{
         img{
@@ -354,7 +354,7 @@
 
 .slick-arrow{
     position: absolute;
-    bottom: -110px;
+    bottom: -70px;
     border: none;
     background-color: transparent;
     font-size: 14px;
@@ -396,6 +396,33 @@
     }
 }
 
+
+.slick-dots{
+    position: absolute;
+    bottom: -93px;
+    right: -20px;
+    display: flex;
+    justify-content: center;
+    li{
+        padding-left: 8px;
+        line-height: 0;
+        button{
+            font-size: 0;
+            line-height: 0;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            width: 40px;
+            height: 8px;
+            background: #E5E5E5;
+        }
+    }
+    .slick-active{
+        button{
+            background: #DAA520;
+        }
+    }
+}
 
 .jq-ry-container{
     padding: 0px;

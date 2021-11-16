@@ -1,6 +1,7 @@
 $(function () {
     $('.slider__items').slick({
         infinite: false,
+        dots: true,
         slidesToShow: 1,
         slidesToScroll: 1,
         prevArrow: '<button type="button" class="slick-prev"><svg width="34" height="8" viewBox="0 0 34 8" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.06588 3.64644C0.870617 3.84171 0.870617 4.15829 1.06588 4.35355L4.24786 7.53553C4.44312 7.73079 4.7597 7.73079 4.95497 7.53553C5.15023 7.34027 5.15023 7.02369 4.95497 6.82842L2.12654 4L4.95497 1.17157C5.15023 0.976308 5.15023 0.659726 4.95497 0.464464C4.7597 0.269201 4.44312 0.269201 4.24786 0.464464L1.06588 3.64644ZM33.4194 3.5L1.41943 3.5L1.41943 4.5L33.4194 4.5L33.4194 3.5Z" fill="black"/></svg>Prev</button >',
