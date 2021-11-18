@@ -27,6 +27,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        width: 100%;
     }
     &__btn{
         @extend %btn;
@@ -37,6 +38,23 @@
         line-height: 22px;
         background: #F9BDBD;
         text-transform: uppercase;
+        z-index: 99;
+    }
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__menu{
+        display: none;
+        padding-right: 50px;
+    }
+    &__menu-box{
+        margin-left: 20px;
+
+    }
+    &__menu-btn{
+        display: none;
     }
 }
 
