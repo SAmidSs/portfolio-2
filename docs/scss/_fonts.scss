@@ -1,43 +1,43 @@
 @font-face{
-    font-family: 'Nunito-ExtraBold', sans-serif;
+    font-family: 'Nunito';
     font-weight: 800;
     font-style: normal;
-    src: local('Nunito-ExtraBold'),
+    src: local('Nunito'),
          url(../fonts/Nunito-ExtraBold.woff2) format('woff2'),
-         url(../fonts/Nunito-ExtraBold.woff2) format('woff');
+         url(../fonts/Nunito-ExtraBold.woff) format('woff');
     font-display: swap;
 }
 
 
 @font-face{
-    font-family: 'Nunito-Bold', sans-serif;
+    font-family: 'Nunito';
     font-weight: 700;
     font-style: normal;
-    src: local('Nunito-Bold'),
+    src: local('Nunito'),
          url(../fonts/Nunito-Bold.woff2) format('woff2'),
-         url(../fonts/Nunito-Bold.woff2) format('woff');
+         url(../fonts/Nunito-Bold.woff) format('woff');
     font-display: swap;
 }
 
 
 
 @font-face{
-    font-family: 'Nunito-SemiBold', sans-serif;
+    font-family: 'Nunito';
     font-weight: 600;
     font-style: normal;
-    src: local('Nunito-SemiBold'),
+    src: local('Nunito'),
          url(../fonts/Nunito-SemiBold.woff2) format('woff2'),
-         url(../fonts/Nunito-SemiBold.woff2) format('woff');
+         url(../fonts/Nunito-SemiBold.woff) format('woff');
     font-display: swap;
 }
 
 
 @font-face{
-    font-family: 'Nunito-Regular', sans-serif;
+    font-family: 'Nunito';
     font-weight: 400;
     font-style: normal;
-    src: local('Nunito-Regular'),
+    src: local('Nunito'),
          url(../fonts/Nunito-Regular.woff2) format('woff2'),
-         url(../fonts/Nunito-Regular.woff2) format('woff');
+         url(../fonts/Nunito-Regular.woff) format('woff');
     font-display: swap;
 }
